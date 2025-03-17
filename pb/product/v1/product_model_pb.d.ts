@@ -44,6 +44,16 @@ export declare type ProductModelEntity = Message<"product.v1.ProductModelEntity"
    * @generated from field: int64 date_manufactured = 6;
    */
   dateManufactured: bigint;
+
+  /**
+   * @generated from field: repeated string resources = 7;
+   */
+  resources: string[];
+
+  /**
+   * @generated from field: repeated string tags = 8;
+   */
+  tags: string[];
 };
 
 /**
@@ -73,9 +83,9 @@ export declare const GetProductModelRequestSchema: GenMessage<GetProductModelReq
  */
 export declare type GetProductModelResponse = Message<"product.v1.GetProductModelResponse"> & {
   /**
-   * @generated from field: product.v1.ProductModelEntity product_model = 1;
+   * @generated from field: product.v1.ProductModelEntity data = 1;
    */
-  productModel?: ProductModelEntity;
+  data?: ProductModelEntity;
 };
 
 /**
@@ -140,14 +150,14 @@ export declare const ListProductModelsRequestSchema: GenMessage<ListProductModel
  */
 export declare type ListProductModelsResponse = Message<"product.v1.ListProductModelsResponse"> & {
   /**
-   * @generated from field: common.PaginationResponse pagination = 1;
+   * @generated from field: repeated product.v1.ProductModelEntity data = 1;
    */
-  pagination?: PaginationResponse;
+  data: ProductModelEntity[];
 
   /**
-   * @generated from field: repeated product.v1.ProductModelEntity product_models = 2;
+   * @generated from field: common.PaginationResponse pagination = 2;
    */
-  productModels: ProductModelEntity[];
+  pagination?: PaginationResponse;
 };
 
 /**
@@ -184,6 +194,16 @@ export declare type CreateProductModelRequest = Message<"product.v1.CreateProduc
    * @generated from field: int64 date_manufactured = 5;
    */
   dateManufactured: bigint;
+
+  /**
+   * @generated from field: repeated string resources = 6;
+   */
+  resources: string[];
+
+  /**
+   * @generated from field: repeated string tags = 7;
+   */
+  tags: string[];
 };
 
 /**
@@ -197,9 +217,9 @@ export declare const CreateProductModelRequestSchema: GenMessage<CreateProductMo
  */
 export declare type CreateProductModelResponse = Message<"product.v1.CreateProductModelResponse"> & {
   /**
-   * @generated from field: product.v1.ProductModelEntity product_model = 1;
+   * @generated from field: product.v1.ProductModelEntity data = 1;
    */
-  productModel?: ProductModelEntity;
+  data?: ProductModelEntity;
 };
 
 /**

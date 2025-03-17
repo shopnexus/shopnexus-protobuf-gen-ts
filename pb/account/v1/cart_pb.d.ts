@@ -4,7 +4,7 @@
 
 import type { GenFile, GenMessage } from "@bufbuild/protobuf/codegenv1";
 import type { Message } from "@bufbuild/protobuf";
-import type { ItemQuantity } from "../../common/item_quantity_pb";
+import type { ItemQuantityInt64 } from "../../common/item_quantity_pb";
 
 /**
  * Describes the file account/v1/cart.proto.
@@ -28,9 +28,9 @@ export declare const GetCartRequestSchema: GenMessage<GetCartRequest>;
  */
 export declare type GetCartResponse = Message<"account.v1.GetCartResponse"> & {
   /**
-   * @generated from field: repeated common.ItemQuantity items = 1;
+   * @generated from field: repeated common.ItemQuantityInt64 items = 1;
    */
-  items: ItemQuantity[];
+  items: ItemQuantityInt64[];
 };
 
 /**
@@ -44,9 +44,9 @@ export declare const GetCartResponseSchema: GenMessage<GetCartResponse>;
  */
 export declare type AddCartItemRequest = Message<"account.v1.AddCartItemRequest"> & {
   /**
-   * @generated from field: repeated common.ItemQuantity items = 1;
+   * @generated from field: repeated common.ItemQuantityInt64 items = 1;
    */
-  items: ItemQuantity[];
+  items: ItemQuantityInt64[];
 };
 
 /**
@@ -60,9 +60,9 @@ export declare const AddCartItemRequestSchema: GenMessage<AddCartItemRequest>;
  */
 export declare type AddCartItemResponse = Message<"account.v1.AddCartItemResponse"> & {
   /**
-   * @generated from field: repeated common.ItemQuantity items = 1;
+   * @generated from field: repeated common.ItemQuantityInt64 items = 1;
    */
-  items: ItemQuantity[];
+  items: ItemQuantityInt64[];
 };
 
 /**
@@ -76,9 +76,9 @@ export declare const AddCartItemResponseSchema: GenMessage<AddCartItemResponse>;
  */
 export declare type UpdateCartItemRequest = Message<"account.v1.UpdateCartItemRequest"> & {
   /**
-   * @generated from field: repeated common.ItemQuantity items = 1;
+   * @generated from field: repeated common.ItemQuantityInt64 items = 1;
    */
-  items: ItemQuantity[];
+  items: ItemQuantityInt64[];
 };
 
 /**
@@ -98,4 +98,28 @@ export declare type UpdateCartItemResponse = Message<"account.v1.UpdateCartItemR
  * Use `create(UpdateCartItemResponseSchema)` to create a new message.
  */
 export declare const UpdateCartItemResponseSchema: GenMessage<UpdateCartItemResponse>;
+
+/**
+ * @generated from message account.v1.ClearCartRequest
+ */
+export declare type ClearCartRequest = Message<"account.v1.ClearCartRequest"> & {
+};
+
+/**
+ * Describes the message account.v1.ClearCartRequest.
+ * Use `create(ClearCartRequestSchema)` to create a new message.
+ */
+export declare const ClearCartRequestSchema: GenMessage<ClearCartRequest>;
+
+/**
+ * @generated from message account.v1.ClearCartResponse
+ */
+export declare type ClearCartResponse = Message<"account.v1.ClearCartResponse"> & {
+};
+
+/**
+ * Describes the message account.v1.ClearCartResponse.
+ * Use `create(ClearCartResponseSchema)` to create a new message.
+ */
+export declare const ClearCartResponseSchema: GenMessage<ClearCartResponse>;
 
