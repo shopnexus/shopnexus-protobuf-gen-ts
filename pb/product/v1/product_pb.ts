@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file product/v1/product.proto.
  */
 export const file_product_v1_product: GenFile = /*@__PURE__*/
-  fileDesc("Chhwcm9kdWN0L3YxL3Byb2R1Y3QucHJvdG8SCnByb2R1Y3QudjEidAoNUHJvZHVjdEVudGl0eRIKCgJpZBgBIAEoAxIRCglzZXJpYWxfaWQYAiABKAkSGAoQcHJvZHVjdF9tb2RlbF9pZBgDIAEoAxIUCgxkYXRlX2NyZWF0ZWQYBCABKAMSFAoMZGF0ZV91cGRhdGVkGAUgASgDIlEKEUdldFByb2R1Y3RSZXF1ZXN0Eg8KAmlkGAEgASgDSACIAQESFgoJc2VyaWFsX2lkGAIgASgJSAGIAQFCBQoDX2lkQgwKCl9zZXJpYWxfaWQiPQoSR2V0UHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHki4AEKE0xpc3RQcm9kdWN0c1JlcXVlc3QSLQoKcGFnaW5hdGlvbhgBIAEoCzIZLmNvbW1vbi5QYWdpbmF0aW9uUmVxdWVzdBIdChBwcm9kdWN0X21vZGVsX2lkGAIgASgDSACIAQESHgoRZGF0ZV9jcmVhdGVkX2Zyb20YAyABKANIAYgBARIcCg9kYXRlX2NyZWF0ZWRfdG8YBCABKANIAogBAUITChFfcHJvZHVjdF9tb2RlbF9pZEIUChJfZGF0ZV9jcmVhdGVkX2Zyb21CEgoQX2RhdGVfY3JlYXRlZF90byJvChRMaXN0UHJvZHVjdHNSZXNwb25zZRInCgRkYXRhGAEgAygLMhkucHJvZHVjdC52MS5Qcm9kdWN0RW50aXR5Ei4KCnBhZ2luYXRpb24YAiABKAsyGi5jb21tb24uUGFnaW5hdGlvblJlc3BvbnNlIkMKFENyZWF0ZVByb2R1Y3RSZXF1ZXN0EhEKCXNlcmlhbF9pZBgBIAEoCRIYChBwcm9kdWN0X21vZGVsX2lkGAIgASgDIkAKFUNyZWF0ZVByb2R1Y3RSZXNwb25zZRInCgRkYXRhGAEgASgLMhkucHJvZHVjdC52MS5Qcm9kdWN0RW50aXR5InwKFFVwZGF0ZVByb2R1Y3RSZXF1ZXN0EgoKAmlkGAEgASgDEhYKCXNlcmlhbF9pZBgCIAEoCUgAiAEBEh0KEHByb2R1Y3RfbW9kZWxfaWQYAyABKANIAYgBAUIMCgpfc2VyaWFsX2lkQhMKEV9wcm9kdWN0X21vZGVsX2lkIhcKFVVwZGF0ZVByb2R1Y3RSZXNwb25zZSJUChREZWxldGVQcm9kdWN0UmVxdWVzdBIPCgJpZBgBIAEoA0gAiAEBEhYKCXNlcmlhbF9pZBgCIAEoCUgBiAEBQgUKA19pZEIMCgpfc2VyaWFsX2lkIhcKFURlbGV0ZVByb2R1Y3RSZXNwb25zZUKvAQoOY29tLnByb2R1Y3QudjFCDFByb2R1Y3RQcm90b1ABWkZnaXRodWIuY29tL3Nob3BuZXh1cy9zaG9wbmV4dXMtcHJvdG9idWYtZ2VuLWdvL3BiL3Byb2R1Y3QvdjE7cHJvZHVjdHYxogIDUFhYqgIKUHJvZHVjdC5WMcoCClByb2R1Y3RcVjHiAhZQcm9kdWN0XFYxXEdQQk1ldGFkYXRh6gILUHJvZHVjdDo6VjFiBnByb3RvMw", [file_common_pagination]);
+  fileDesc("Chhwcm9kdWN0L3YxL3Byb2R1Y3QucHJvdG8SCnByb2R1Y3QudjEi3wEKDVByb2R1Y3RFbnRpdHkSCgoCaWQYASABKAMSEQoJc2VyaWFsX2lkGAIgASgJEhgKEHByb2R1Y3RfbW9kZWxfaWQYAyABKAMSEAoIcXVhbnRpdHkYBCABKAMSDAoEc29sZBgFIAEoAxIRCglhZGRfcHJpY2UYBiABKAMSEQoJaXNfYWN0aXZlGAcgASgIEhAKCG1ldGFkYXRhGAggASgMEhQKDGRhdGVfY3JlYXRlZBgJIAEoAxIUCgxkYXRlX3VwZGF0ZWQYCiABKAMSEQoJcmVzb3VyY2VzGAsgAygJIlEKEUdldFByb2R1Y3RSZXF1ZXN0Eg8KAmlkGAEgASgDSACIAQESFgoJc2VyaWFsX2lkGAIgASgJSAGIAQFCBQoDX2lkQgwKCl9zZXJpYWxfaWQiPQoSR2V0UHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHki4AEKE0xpc3RQcm9kdWN0c1JlcXVlc3QSLQoKcGFnaW5hdGlvbhgBIAEoCzIZLmNvbW1vbi5QYWdpbmF0aW9uUmVxdWVzdBIdChBwcm9kdWN0X21vZGVsX2lkGAIgASgDSACIAQESHgoRZGF0ZV9jcmVhdGVkX2Zyb20YAyABKANIAYgBARIcCg9kYXRlX2NyZWF0ZWRfdG8YBCABKANIAogBAUITChFfcHJvZHVjdF9tb2RlbF9pZEIUChJfZGF0ZV9jcmVhdGVkX2Zyb21CEgoQX2RhdGVfY3JlYXRlZF90byJvChRMaXN0UHJvZHVjdHNSZXNwb25zZRInCgRkYXRhGAEgAygLMhkucHJvZHVjdC52MS5Qcm9kdWN0RW50aXR5Ei4KCnBhZ2luYXRpb24YAiABKAsyGi5jb21tb24uUGFnaW5hdGlvblJlc3BvbnNlIqABChRDcmVhdGVQcm9kdWN0UmVxdWVzdBIRCglzZXJpYWxfaWQYASABKAkSGAoQcHJvZHVjdF9tb2RlbF9pZBgCIAEoAxIQCghxdWFudGl0eRgDIAEoAxIRCglhZGRfcHJpY2UYBCABKAMSEQoJaXNfYWN0aXZlGAUgASgIEhAKCG1ldGFkYXRhGAYgASgMEhEKCXJlc291cmNlcxgHIAMoCSJAChVDcmVhdGVQcm9kdWN0UmVzcG9uc2USJwoEZGF0YRgBIAEoCzIZLnByb2R1Y3QudjEuUHJvZHVjdEVudGl0eSJ8ChRVcGRhdGVQcm9kdWN0UmVxdWVzdBIKCgJpZBgBIAEoAxIWCglzZXJpYWxfaWQYAiABKAlIAIgBARIdChBwcm9kdWN0X21vZGVsX2lkGAMgASgDSAGIAQFCDAoKX3NlcmlhbF9pZEITChFfcHJvZHVjdF9tb2RlbF9pZCIXChVVcGRhdGVQcm9kdWN0UmVzcG9uc2UiVAoURGVsZXRlUHJvZHVjdFJlcXVlc3QSDwoCaWQYASABKANIAIgBARIWCglzZXJpYWxfaWQYAiABKAlIAYgBAUIFCgNfaWRCDAoKX3NlcmlhbF9pZCIXChVEZWxldGVQcm9kdWN0UmVzcG9uc2VCrwEKDmNvbS5wcm9kdWN0LnYxQgxQcm9kdWN0UHJvdG9QAVpGZ2l0aHViLmNvbS9zaG9wbmV4dXMvc2hvcG5leHVzLXByb3RvYnVmLWdlbi1nby9wYi9wcm9kdWN0L3YxO3Byb2R1Y3R2MaICA1BYWKoCClByb2R1Y3QuVjHKAgpQcm9kdWN0XFYx4gIWUHJvZHVjdFxWMVxHUEJNZXRhZGF0YeoCC1Byb2R1Y3Q6OlYxYgZwcm90bzM", [file_common_pagination]);
 
 /**
  * PRODUCT ENTITY
@@ -36,14 +36,44 @@ export type ProductEntity = Message<"product.v1.ProductEntity"> & {
   productModelId: bigint;
 
   /**
-   * @generated from field: int64 date_created = 4;
+   * @generated from field: int64 quantity = 4;
+   */
+  quantity: bigint;
+
+  /**
+   * @generated from field: int64 sold = 5;
+   */
+  sold: bigint;
+
+  /**
+   * @generated from field: int64 add_price = 6;
+   */
+  addPrice: bigint;
+
+  /**
+   * @generated from field: bool is_active = 7;
+   */
+  isActive: boolean;
+
+  /**
+   * @generated from field: bytes metadata = 8;
+   */
+  metadata: Uint8Array;
+
+  /**
+   * @generated from field: int64 date_created = 9;
    */
   dateCreated: bigint;
 
   /**
-   * @generated from field: int64 date_updated = 5;
+   * @generated from field: int64 date_updated = 10;
    */
   dateUpdated: bigint;
+
+  /**
+   * @generated from field: repeated string resources = 11;
+   */
+  resources: string[];
 };
 
 /**
@@ -159,6 +189,31 @@ export type CreateProductRequest = Message<"product.v1.CreateProductRequest"> & 
    * @generated from field: int64 product_model_id = 2;
    */
   productModelId: bigint;
+
+  /**
+   * @generated from field: int64 quantity = 3;
+   */
+  quantity: bigint;
+
+  /**
+   * @generated from field: int64 add_price = 4;
+   */
+  addPrice: bigint;
+
+  /**
+   * @generated from field: bool is_active = 5;
+   */
+  isActive: boolean;
+
+  /**
+   * @generated from field: bytes metadata = 6;
+   */
+  metadata: Uint8Array;
+
+  /**
+   * @generated from field: repeated string resources = 7;
+   */
+  resources: string[];
 };
 
 /**
@@ -200,6 +255,8 @@ export type UpdateProductRequest = Message<"product.v1.UpdateProductRequest"> & 
   serialId?: string;
 
   /**
+   * TODO: add missing field (see the entity)
+   *
    * @generated from field: optional int64 product_model_id = 3;
    */
   productModelId?: bigint;
