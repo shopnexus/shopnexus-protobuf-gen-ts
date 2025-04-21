@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file product/v1/product.proto.
  */
 export const file_product_v1_product: GenFile = /*@__PURE__*/
-  fileDesc("Chhwcm9kdWN0L3YxL3Byb2R1Y3QucHJvdG8SCnByb2R1Y3QudjEizAEKDVByb2R1Y3RFbnRpdHkSCgoCaWQYASABKAMSGAoQcHJvZHVjdF9tb2RlbF9pZBgCIAEoAxIQCghxdWFudGl0eRgDIAEoAxIMCgRzb2xkGAQgASgDEhEKCWFkZF9wcmljZRgFIAEoAxIRCglpc19hY3RpdmUYBiABKAgSEAoIbWV0YWRhdGEYByABKAwSFAoMZGF0ZV9jcmVhdGVkGAggASgDEhQKDGRhdGVfdXBkYXRlZBgJIAEoAxIRCglyZXNvdXJjZXMYCyADKAkiHwoRR2V0UHJvZHVjdFJlcXVlc3QSCgoCaWQYASABKAMiPQoSR2V0UHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHkipgQKE0xpc3RQcm9kdWN0c1JlcXVlc3QSLQoKcGFnaW5hdGlvbhgBIAEoCzIZLmNvbW1vbi5QYWdpbmF0aW9uUmVxdWVzdBIdChBwcm9kdWN0X21vZGVsX2lkGAIgASgDSACIAQESGgoNcXVhbnRpdHlfZnJvbRgDIAEoA0gBiAEBEhgKC3F1YW50aXR5X3RvGAQgASgDSAKIAQESFgoJc29sZF9mcm9tGAUgASgDSAOIAQESFAoHc29sZF90bxgGIAEoA0gEiAEBEhsKDmFkZF9wcmljZV9mcm9tGAcgASgDSAWIAQESGQoMYWRkX3ByaWNlX3RvGAggASgDSAaIAQESFgoJaXNfYWN0aXZlGAkgASgISAeIAQESFQoIbWV0YWRhdGEYCiABKAxICIgBARIeChFkYXRlX2NyZWF0ZWRfZnJvbRgLIAEoA0gJiAEBEhwKD2RhdGVfY3JlYXRlZF90bxgMIAEoA0gKiAEBQhMKEV9wcm9kdWN0X21vZGVsX2lkQhAKDl9xdWFudGl0eV9mcm9tQg4KDF9xdWFudGl0eV90b0IMCgpfc29sZF9mcm9tQgoKCF9zb2xkX3RvQhEKD19hZGRfcHJpY2VfZnJvbUIPCg1fYWRkX3ByaWNlX3RvQgwKCl9pc19hY3RpdmVCCwoJX21ldGFkYXRhQhQKEl9kYXRlX2NyZWF0ZWRfZnJvbUISChBfZGF0ZV9jcmVhdGVkX3RvIm8KFExpc3RQcm9kdWN0c1Jlc3BvbnNlEicKBGRhdGEYASADKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHkSLgoKcGFnaW5hdGlvbhgCIAEoCzIaLmNvbW1vbi5QYWdpbmF0aW9uUmVzcG9uc2UijQEKFENyZWF0ZVByb2R1Y3RSZXF1ZXN0EhgKEHByb2R1Y3RfbW9kZWxfaWQYAiABKAMSEAoIcXVhbnRpdHkYAyABKAMSEQoJYWRkX3ByaWNlGAQgASgDEhEKCWlzX2FjdGl2ZRgFIAEoCBIQCghtZXRhZGF0YRgGIAEoDBIRCglyZXNvdXJjZXMYByADKAkiQAoVQ3JlYXRlUHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHkimQIKFFVwZGF0ZVByb2R1Y3RSZXF1ZXN0EgoKAmlkGAEgASgDEh0KEHByb2R1Y3RfbW9kZWxfaWQYAiABKANIAIgBARIVCghxdWFudGl0eRgDIAEoA0gBiAEBEhEKBHNvbGQYBCABKANIAogBARIWCglhZGRfcHJpY2UYBSABKANIA4gBARIWCglpc19hY3RpdmUYBiABKAhIBIgBARIVCghtZXRhZGF0YRgHIAEoDEgFiAEBEhEKCXJlc291cmNlcxgIIAMoCUITChFfcHJvZHVjdF9tb2RlbF9pZEILCglfcXVhbnRpdHlCBwoFX3NvbGRCDAoKX2FkZF9wcmljZUIMCgpfaXNfYWN0aXZlQgsKCV9tZXRhZGF0YSIXChVVcGRhdGVQcm9kdWN0UmVzcG9uc2UiIgoURGVsZXRlUHJvZHVjdFJlcXVlc3QSCgoCaWQYASABKAMiFwoVRGVsZXRlUHJvZHVjdFJlc3BvbnNlQq8BCg5jb20ucHJvZHVjdC52MUIMUHJvZHVjdFByb3RvUAFaRmdpdGh1Yi5jb20vc2hvcG5leHVzL3Nob3BuZXh1cy1wcm90b2J1Zi1nZW4tZ28vcGIvcHJvZHVjdC92MTtwcm9kdWN0djGiAgNQWFiqAgpQcm9kdWN0LlYxygIKUHJvZHVjdFxWMeICFlByb2R1Y3RcVjFcR1BCTWV0YWRhdGHqAgtQcm9kdWN0OjpWMWIGcHJvdG8z", [file_common_pagination]);
+  fileDesc("Chhwcm9kdWN0L3YxL3Byb2R1Y3QucHJvdG8SCnByb2R1Y3QudjEi4QEKDVByb2R1Y3RFbnRpdHkSCgoCaWQYASABKAMSGAoQcHJvZHVjdF9tb2RlbF9pZBgCIAEoAxIQCghxdWFudGl0eRgDIAEoAxIMCgRzb2xkGAQgASgDEhEKCWFkZF9wcmljZRgFIAEoAxIRCglpc19hY3RpdmUYBiABKAgSEwoLY2FuX2NvbWJpbmUYByABKAgSEAoIbWV0YWRhdGEYCCABKAwSFAoMZGF0ZV9jcmVhdGVkGAkgASgDEhQKDGRhdGVfdXBkYXRlZBgKIAEoAxIRCglyZXNvdXJjZXMYCyADKAkiHwoRR2V0UHJvZHVjdFJlcXVlc3QSCgoCaWQYASABKAMiPQoSR2V0UHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHki0AQKE0xpc3RQcm9kdWN0c1JlcXVlc3QSLQoKcGFnaW5hdGlvbhgBIAEoCzIZLmNvbW1vbi5QYWdpbmF0aW9uUmVxdWVzdBIdChBwcm9kdWN0X21vZGVsX2lkGAIgASgDSACIAQESGgoNcXVhbnRpdHlfZnJvbRgDIAEoA0gBiAEBEhgKC3F1YW50aXR5X3RvGAQgASgDSAKIAQESFgoJc29sZF9mcm9tGAUgASgDSAOIAQESFAoHc29sZF90bxgGIAEoA0gEiAEBEhsKDmFkZF9wcmljZV9mcm9tGAcgASgDSAWIAQESGQoMYWRkX3ByaWNlX3RvGAggASgDSAaIAQESFgoJaXNfYWN0aXZlGAkgASgISAeIAQESGAoLY2FuX2NvbWJpbmUYCiABKAhICIgBARIVCghtZXRhZGF0YRgLIAEoDEgJiAEBEh4KEWRhdGVfY3JlYXRlZF9mcm9tGAwgASgDSAqIAQESHAoPZGF0ZV9jcmVhdGVkX3RvGA0gASgDSAuIAQFCEwoRX3Byb2R1Y3RfbW9kZWxfaWRCEAoOX3F1YW50aXR5X2Zyb21CDgoMX3F1YW50aXR5X3RvQgwKCl9zb2xkX2Zyb21CCgoIX3NvbGRfdG9CEQoPX2FkZF9wcmljZV9mcm9tQg8KDV9hZGRfcHJpY2VfdG9CDAoKX2lzX2FjdGl2ZUIOCgxfY2FuX2NvbWJpbmVCCwoJX21ldGFkYXRhQhQKEl9kYXRlX2NyZWF0ZWRfZnJvbUISChBfZGF0ZV9jcmVhdGVkX3RvIm8KFExpc3RQcm9kdWN0c1Jlc3BvbnNlEicKBGRhdGEYASADKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHkSLgoKcGFnaW5hdGlvbhgCIAEoCzIaLmNvbW1vbi5QYWdpbmF0aW9uUmVzcG9uc2UiogEKFENyZWF0ZVByb2R1Y3RSZXF1ZXN0EhgKEHByb2R1Y3RfbW9kZWxfaWQYAiABKAMSEAoIcXVhbnRpdHkYAyABKAMSEQoJYWRkX3ByaWNlGAQgASgDEhEKCWlzX2FjdGl2ZRgFIAEoCBITCgtjYW5fY29tYmluZRgGIAEoCBIQCghtZXRhZGF0YRgHIAEoDBIRCglyZXNvdXJjZXMYCCADKAkiQAoVQ3JlYXRlUHJvZHVjdFJlc3BvbnNlEicKBGRhdGEYASABKAsyGS5wcm9kdWN0LnYxLlByb2R1Y3RFbnRpdHkiwwIKFFVwZGF0ZVByb2R1Y3RSZXF1ZXN0EgoKAmlkGAEgASgDEh0KEHByb2R1Y3RfbW9kZWxfaWQYAiABKANIAIgBARIVCghxdWFudGl0eRgDIAEoA0gBiAEBEhEKBHNvbGQYBCABKANIAogBARIWCglhZGRfcHJpY2UYBSABKANIA4gBARIWCglpc19hY3RpdmUYBiABKAhIBIgBARIYCgtjYW5fY29tYmluZRgHIAEoCEgFiAEBEhUKCG1ldGFkYXRhGAggASgMSAaIAQESEQoJcmVzb3VyY2VzGAkgAygJQhMKEV9wcm9kdWN0X21vZGVsX2lkQgsKCV9xdWFudGl0eUIHCgVfc29sZEIMCgpfYWRkX3ByaWNlQgwKCl9pc19hY3RpdmVCDgoMX2Nhbl9jb21iaW5lQgsKCV9tZXRhZGF0YSIXChVVcGRhdGVQcm9kdWN0UmVzcG9uc2UiIgoURGVsZXRlUHJvZHVjdFJlcXVlc3QSCgoCaWQYASABKAMiFwoVRGVsZXRlUHJvZHVjdFJlc3BvbnNlQq8BCg5jb20ucHJvZHVjdC52MUIMUHJvZHVjdFByb3RvUAFaRmdpdGh1Yi5jb20vc2hvcG5leHVzL3Nob3BuZXh1cy1wcm90b2J1Zi1nZW4tZ28vcGIvcHJvZHVjdC92MTtwcm9kdWN0djGiAgNQWFiqAgpQcm9kdWN0LlYxygIKUHJvZHVjdFxWMeICFlByb2R1Y3RcVjFcR1BCTWV0YWRhdGHqAgtQcm9kdWN0OjpWMWIGcHJvdG8z", [file_common_pagination]);
 
 /**
  * PRODUCT ENTITY
@@ -51,17 +51,22 @@ export type ProductEntity = Message<"product.v1.ProductEntity"> & {
   isActive: boolean;
 
   /**
-   * @generated from field: bytes metadata = 7;
+   * @generated from field: bool can_combine = 7;
+   */
+  canCombine: boolean;
+
+  /**
+   * @generated from field: bytes metadata = 8;
    */
   metadata: Uint8Array;
 
   /**
-   * @generated from field: int64 date_created = 8;
+   * @generated from field: int64 date_created = 9;
    */
   dateCreated: bigint;
 
   /**
-   * @generated from field: int64 date_updated = 9;
+   * @generated from field: int64 date_updated = 10;
    */
   dateUpdated: bigint;
 
@@ -162,17 +167,22 @@ export type ListProductsRequest = Message<"product.v1.ListProductsRequest"> & {
   isActive?: boolean;
 
   /**
-   * @generated from field: optional bytes metadata = 10;
+   * @generated from field: optional bool can_combine = 10;
+   */
+  canCombine?: boolean;
+
+  /**
+   * @generated from field: optional bytes metadata = 11;
    */
   metadata?: Uint8Array;
 
   /**
-   * @generated from field: optional int64 date_created_from = 11;
+   * @generated from field: optional int64 date_created_from = 12;
    */
   dateCreatedFrom?: bigint;
 
   /**
-   * @generated from field: optional int64 date_created_to = 12;
+   * @generated from field: optional int64 date_created_to = 13;
    */
   dateCreatedTo?: bigint;
 };
@@ -231,12 +241,17 @@ export type CreateProductRequest = Message<"product.v1.CreateProductRequest"> & 
   isActive: boolean;
 
   /**
-   * @generated from field: bytes metadata = 6;
+   * @generated from field: bool can_combine = 6;
+   */
+  canCombine: boolean;
+
+  /**
+   * @generated from field: bytes metadata = 7;
    */
   metadata: Uint8Array;
 
   /**
-   * @generated from field: repeated string resources = 7;
+   * @generated from field: repeated string resources = 8;
    */
   resources: string[];
 };
@@ -300,12 +315,17 @@ export type UpdateProductRequest = Message<"product.v1.UpdateProductRequest"> & 
   isActive?: boolean;
 
   /**
-   * @generated from field: optional bytes metadata = 7;
+   * @generated from field: optional bool can_combine = 7;
+   */
+  canCombine?: boolean;
+
+  /**
+   * @generated from field: optional bytes metadata = 8;
    */
   metadata?: Uint8Array;
 
   /**
-   * @generated from field: repeated string resources = 8;
+   * @generated from field: repeated string resources = 9;
    */
   resources: string[];
 };

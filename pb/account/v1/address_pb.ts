@@ -12,7 +12,7 @@ import type { Message } from "@bufbuild/protobuf";
  * Describes the file account/v1/address.proto.
  */
 export const file_account_v1_address: GenFile = /*@__PURE__*/
-  fileDesc("ChhhY2NvdW50L3YxL2FkZHJlc3MucHJvdG8SCmFjY291bnQudjEimgEKDUFkZHJlc3NFbnRpdHkSCgoCaWQYASABKAMSDwoHdXNlcl9pZBgCIAEoAxIPCgdhZGRyZXNzGAMgASgJEgwKBGNpdHkYBCABKAkSEAoIcHJvdmluY2UYBSABKAkSDwoHY291bnRyeRgGIAEoCRIUCgxkYXRlX2NyZWF0ZWQYByABKAMSFAoMZGF0ZV91cGRhdGVkGAggASgDIh8KEUdldEFkZHJlc3NSZXF1ZXN0EgoKAmlkGAEgASgDIj0KEkdldEFkZHJlc3NSZXNwb25zZRInCgRkYXRhGAEgASgLMhkuYWNjb3VudC52MS5BZGRyZXNzRW50aXR5ItMCChRMaXN0QWRkcmVzc2VzUmVxdWVzdBItCgpwYWdpbmF0aW9uGAEgASgLMhkuY29tbW9uLlBhZ2luYXRpb25SZXF1ZXN0EhQKB3VzZXJfaWQYAiABKANIAIgBARIUCgdhZGRyZXNzGAMgASgJSAGIAQESEQoEY2l0eRgEIAEoCUgCiAEBEhUKCHByb3ZpbmNlGAUgASgJSAOIAQESFAoHY291bnRyeRgGIAEoCUgEiAEBEh4KEWRhdGVfY3JlYXRlZF9mcm9tGAcgASgDSAWIAQESHAoPZGF0ZV9jcmVhdGVkX3RvGAggASgDSAaIAQFCCgoIX3VzZXJfaWRCCgoIX2FkZHJlc3NCBwoFX2NpdHlCCwoJX3Byb3ZpbmNlQgoKCF9jb3VudHJ5QhQKEl9kYXRlX2NyZWF0ZWRfZnJvbUISChBfZGF0ZV9jcmVhdGVkX3RvInAKFUxpc3RBZGRyZXNzZXNSZXNwb25zZRInCgRkYXRhGAEgAygLMhkuYWNjb3VudC52MS5BZGRyZXNzRW50aXR5Ei4KCnBhZ2luYXRpb24YAiABKAsyGi5jb21tb24uUGFnaW5hdGlvblJlc3BvbnNlImkKFENyZWF0ZUFkZHJlc3NSZXF1ZXN0Eg8KB3VzZXJfaWQYASABKAMSDwoHYWRkcmVzcxgCIAEoCRIMCgRjaXR5GAMgASgJEhAKCHByb3ZpbmNlGAQgASgJEg8KB2NvdW50cnkYBSABKAkiQAoVQ3JlYXRlQWRkcmVzc1Jlc3BvbnNlEicKBGRhdGEYASABKAsyGS5hY2NvdW50LnYxLkFkZHJlc3NFbnRpdHkiyAEKFFVwZGF0ZUFkZHJlc3NSZXF1ZXN0EgoKAmlkGAEgASgDEhQKB3VzZXJfaWQYAiABKANIAIgBARIUCgdhZGRyZXNzGAMgASgJSAGIAQESEQoEY2l0eRgEIAEoCUgCiAEBEhUKCHByb3ZpbmNlGAUgASgJSAOIAQESFAoHY291bnRyeRgGIAEoCUgEiAEBQgoKCF91c2VyX2lkQgoKCF9hZGRyZXNzQgcKBV9jaXR5QgsKCV9wcm92aW5jZUIKCghfY291bnRyeSIXChVVcGRhdGVBZGRyZXNzUmVzcG9uc2UiIgoURGVsZXRlQWRkcmVzc1JlcXVlc3QSCgoCaWQYASABKAMiFwoVRGVsZXRlQWRkcmVzc1Jlc3BvbnNlQq8BCg5jb20uYWNjb3VudC52MUIMQWRkcmVzc1Byb3RvUAFaRmdpdGh1Yi5jb20vc2hvcG5leHVzL3Nob3BuZXh1cy1wcm90b2J1Zi1nZW4tZ28vcGIvYWNjb3VudC92MTthY2NvdW50djGiAgNBWFiqAgpBY2NvdW50LlYxygIKQWNjb3VudFxWMeICFkFjY291bnRcVjFcR1BCTWV0YWRhdGHqAgtBY2NvdW50OjpWMWIGcHJvdG8z", [file_common_pagination]);
+  fileDesc("ChhhY2NvdW50L3YxL2FkZHJlc3MucHJvdG8SCmFjY291bnQudjEivAEKDUFkZHJlc3NFbnRpdHkSCgoCaWQYASABKAMSDwoHdXNlcl9pZBgCIAEoAxIRCglmdWxsX25hbWUYAyABKAkSDQoFcGhvbmUYBCABKAkSDwoHYWRkcmVzcxgFIAEoCRIMCgRjaXR5GAYgASgJEhAKCHByb3ZpbmNlGAcgASgJEg8KB2NvdW50cnkYCCABKAkSFAoMZGF0ZV9jcmVhdGVkGAkgASgDEhQKDGRhdGVfdXBkYXRlZBgKIAEoAyIfChFHZXRBZGRyZXNzUmVxdWVzdBIKCgJpZBgBIAEoAyI9ChJHZXRBZGRyZXNzUmVzcG9uc2USJwoEZGF0YRgBIAEoCzIZLmFjY291bnQudjEuQWRkcmVzc0VudGl0eSKXAwoUTGlzdEFkZHJlc3Nlc1JlcXVlc3QSLQoKcGFnaW5hdGlvbhgBIAEoCzIZLmNvbW1vbi5QYWdpbmF0aW9uUmVxdWVzdBIUCgd1c2VyX2lkGAIgASgDSACIAQESFgoJZnVsbF9uYW1lGAMgASgJSAGIAQESEgoFcGhvbmUYBCABKAlIAogBARIUCgdhZGRyZXNzGAUgASgJSAOIAQESEQoEY2l0eRgGIAEoCUgEiAEBEhUKCHByb3ZpbmNlGAcgASgJSAWIAQESFAoHY291bnRyeRgIIAEoCUgGiAEBEh4KEWRhdGVfY3JlYXRlZF9mcm9tGAkgASgDSAeIAQESHAoPZGF0ZV9jcmVhdGVkX3RvGAogASgDSAiIAQFCCgoIX3VzZXJfaWRCDAoKX2Z1bGxfbmFtZUIICgZfcGhvbmVCCgoIX2FkZHJlc3NCBwoFX2NpdHlCCwoJX3Byb3ZpbmNlQgoKCF9jb3VudHJ5QhQKEl9kYXRlX2NyZWF0ZWRfZnJvbUISChBfZGF0ZV9jcmVhdGVkX3RvInAKFUxpc3RBZGRyZXNzZXNSZXNwb25zZRInCgRkYXRhGAEgAygLMhkuYWNjb3VudC52MS5BZGRyZXNzRW50aXR5Ei4KCnBhZ2luYXRpb24YAiABKAsyGi5jb21tb24uUGFnaW5hdGlvblJlc3BvbnNlInoKFENyZWF0ZUFkZHJlc3NSZXF1ZXN0EhEKCWZ1bGxfbmFtZRgBIAEoCRINCgVwaG9uZRgCIAEoCRIPCgdhZGRyZXNzGAMgASgJEgwKBGNpdHkYBCABKAkSEAoIcHJvdmluY2UYBSABKAkSDwoHY291bnRyeRgGIAEoCSJAChVDcmVhdGVBZGRyZXNzUmVzcG9uc2USJwoEZGF0YRgBIAEoCzIZLmFjY291bnQudjEuQWRkcmVzc0VudGl0eSKMAgoUVXBkYXRlQWRkcmVzc1JlcXVlc3QSCgoCaWQYASABKAMSFAoHdXNlcl9pZBgCIAEoA0gAiAEBEhYKCWZ1bGxfbmFtZRgDIAEoCUgBiAEBEhIKBXBob25lGAQgASgJSAKIAQESFAoHYWRkcmVzcxgFIAEoCUgDiAEBEhEKBGNpdHkYBiABKAlIBIgBARIVCghwcm92aW5jZRgHIAEoCUgFiAEBEhQKB2NvdW50cnkYCCABKAlIBogBAUIKCghfdXNlcl9pZEIMCgpfZnVsbF9uYW1lQggKBl9waG9uZUIKCghfYWRkcmVzc0IHCgVfY2l0eUILCglfcHJvdmluY2VCCgoIX2NvdW50cnkiFwoVVXBkYXRlQWRkcmVzc1Jlc3BvbnNlIiIKFERlbGV0ZUFkZHJlc3NSZXF1ZXN0EgoKAmlkGAEgASgDIhcKFURlbGV0ZUFkZHJlc3NSZXNwb25zZUKvAQoOY29tLmFjY291bnQudjFCDEFkZHJlc3NQcm90b1ABWkZnaXRodWIuY29tL3Nob3BuZXh1cy9zaG9wbmV4dXMtcHJvdG9idWYtZ2VuLWdvL3BiL2FjY291bnQvdjE7YWNjb3VudHYxogIDQVhYqgIKQWNjb3VudC5WMcoCCkFjY291bnRcVjHiAhZBY2NvdW50XFYxXEdQQk1ldGFkYXRh6gILQWNjb3VudDo6VjFiBnByb3RvMw", [file_common_pagination]);
 
 /**
  * ADDRESS ENTITY
@@ -31,32 +31,42 @@ export type AddressEntity = Message<"account.v1.AddressEntity"> & {
   userId: bigint;
 
   /**
-   * @generated from field: string address = 3;
+   * @generated from field: string full_name = 3;
+   */
+  fullName: string;
+
+  /**
+   * @generated from field: string phone = 4;
+   */
+  phone: string;
+
+  /**
+   * @generated from field: string address = 5;
    */
   address: string;
 
   /**
-   * @generated from field: string city = 4;
+   * @generated from field: string city = 6;
    */
   city: string;
 
   /**
-   * @generated from field: string province = 5;
+   * @generated from field: string province = 7;
    */
   province: string;
 
   /**
-   * @generated from field: string country = 6;
+   * @generated from field: string country = 8;
    */
   country: string;
 
   /**
-   * @generated from field: int64 date_created = 7;
+   * @generated from field: int64 date_created = 9;
    */
   dateCreated: bigint;
 
   /**
-   * @generated from field: int64 date_updated = 8;
+   * @generated from field: int64 date_updated = 10;
    */
   dateUpdated: bigint;
 };
@@ -117,32 +127,42 @@ export type ListAddressesRequest = Message<"account.v1.ListAddressesRequest"> & 
   userId?: bigint;
 
   /**
-   * @generated from field: optional string address = 3;
+   * @generated from field: optional string full_name = 3;
+   */
+  fullName?: string;
+
+  /**
+   * @generated from field: optional string phone = 4;
+   */
+  phone?: string;
+
+  /**
+   * @generated from field: optional string address = 5;
    */
   address?: string;
 
   /**
-   * @generated from field: optional string city = 4;
+   * @generated from field: optional string city = 6;
    */
   city?: string;
 
   /**
-   * @generated from field: optional string province = 5;
+   * @generated from field: optional string province = 7;
    */
   province?: string;
 
   /**
-   * @generated from field: optional string country = 6;
+   * @generated from field: optional string country = 8;
    */
   country?: string;
 
   /**
-   * @generated from field: optional int64 date_created_from = 7;
+   * @generated from field: optional int64 date_created_from = 9;
    */
   dateCreatedFrom?: bigint;
 
   /**
-   * @generated from field: optional int64 date_created_to = 8;
+   * @generated from field: optional int64 date_created_to = 10;
    */
   dateCreatedTo?: bigint;
 };
@@ -181,27 +201,32 @@ export const ListAddressesResponseSchema: GenMessage<ListAddressesResponse> = /*
  */
 export type CreateAddressRequest = Message<"account.v1.CreateAddressRequest"> & {
   /**
-   * @generated from field: int64 user_id = 1;
+   * @generated from field: string full_name = 1;
    */
-  userId: bigint;
+  fullName: string;
 
   /**
-   * @generated from field: string address = 2;
+   * @generated from field: string phone = 2;
+   */
+  phone: string;
+
+  /**
+   * @generated from field: string address = 3;
    */
   address: string;
 
   /**
-   * @generated from field: string city = 3;
+   * @generated from field: string city = 4;
    */
   city: string;
 
   /**
-   * @generated from field: string province = 4;
+   * @generated from field: string province = 5;
    */
   province: string;
 
   /**
-   * @generated from field: string country = 5;
+   * @generated from field: string country = 6;
    */
   country: string;
 };
@@ -245,22 +270,32 @@ export type UpdateAddressRequest = Message<"account.v1.UpdateAddressRequest"> & 
   userId?: bigint;
 
   /**
-   * @generated from field: optional string address = 3;
+   * @generated from field: optional string full_name = 3;
+   */
+  fullName?: string;
+
+  /**
+   * @generated from field: optional string phone = 4;
+   */
+  phone?: string;
+
+  /**
+   * @generated from field: optional string address = 5;
    */
   address?: string;
 
   /**
-   * @generated from field: optional string city = 4;
+   * @generated from field: optional string city = 6;
    */
   city?: string;
 
   /**
-   * @generated from field: optional string province = 5;
+   * @generated from field: optional string province = 7;
    */
   province?: string;
 
   /**
-   * @generated from field: optional string country = 6;
+   * @generated from field: optional string country = 8;
    */
   country?: string;
 };

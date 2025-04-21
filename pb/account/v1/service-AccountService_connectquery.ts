@@ -10,6 +10,11 @@ import { AccountService } from "./service_pb";
 export const getUser = AccountService.method.getUser;
 
 /**
+ * @generated from rpc account.v1.AccountService.GetAdmin
+ */
+export const getAdmin = AccountService.method.getAdmin;
+
+/**
  * @generated from rpc account.v1.AccountService.GetUserPublic
  */
 export const getUserPublic = AccountService.method.getUserPublic;
